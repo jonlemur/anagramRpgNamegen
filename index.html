@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet">
+  </head>
+  <body>
+  
+    <div class="namegenMain">
+       
+       <p align="center"><b>Anagram/Shuffle your words.</b><br><i>(doublets might occur in the results)</i></p>
+
+       <div class="knappar" align="center">
+       <input type="text" name="theWord" id="theWordid" onkeydown="if (event.keyCode == 13){generateNames();}">
+        <button type="button" onclick="generateNames()">Generate</button>
+       </div>
+       <br>
+         <div class="generated">
+           <div class="fLeft">
+           <p id="p1"></p>
+            <p id="p2"></p>
+             <p id="p3"></p>
+             <p id="p4"></p>
+             <p id="p5"></p>
+             <p id="p6"></p>
+           </div>
+           <div class="fRight">
+           <p id="p7"></p>
+            <p id="p8"></p>
+             <p id="p9"></p>
+             <p id="p10"></p>
+             <p id="p11"></p>
+             <p id="p12"></p>
+           </div>
+         </div>
+
+
+    </div>
+
+  <script src="namegen.js"></script>
+  </body>
+</html>

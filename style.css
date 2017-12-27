@@ -1,0 +1,38 @@
+.namegenMain{
+padding-top: 25px;
+width:100%;
+max-width: 500px;
+margin-left: auto;
+margin-right: auto;
+font-family: 'IM Fell DW Pica', serif;
+font-size: large;
+}
+
+button{
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: large;
+}
+
+input{
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: large;
+}
+
+.generated
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fLeft{
+    width: 50%;
+    float: left;
+}
+
+.fRight{
+    width: 50%;
+    float: right;
+}
+
+p{text-align: center;   }
